@@ -409,9 +409,9 @@ public class ECPullToZoomScrollViewToolbarEx extends PullToZoomBase<ScrollView> 
             return mToolbarPaddingTop;
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            mToolbarPaddingTop = 25;
-        } else {
             mToolbarPaddingTop = 0;
+        } else {
+            mToolbarPaddingTop = 25;
         }
         return mToolbarPaddingTop;
     }
